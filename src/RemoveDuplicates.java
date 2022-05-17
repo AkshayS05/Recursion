@@ -5,7 +5,7 @@ public class RemoveDuplicates {
     private static void removeDuplicates(String word) {
         removeDuplicates(word,0,"");
     }
-//time complexity= O(n0
+//time complexity= O(n)
     private static void removeDuplicates(String word, int i, String s) {
         if(i==word.length()-1){
             System.out.print(s);
